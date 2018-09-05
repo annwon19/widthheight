@@ -1,0 +1,21 @@
+<html>
+  <head></head>
+  <body>
+  <script>
+    //i am going to create a function that takes two parameters
+    function getArea(width,height);
+    //i will multiply bith parameters
+    var result =width*height;
+    return result;
+    //ask user for width
+    var userWidth=prompt("enter the width");
+    //ask user for height
+    var userHeight=prompt("enter the height?");
+    //pass user width and hright into the getArea function and then save result as wallOne
+    var wallOne= getArea(userWidth,userHeight);
+    //make alert with the result
+    window.alert(wallOne);
+  </script>
+  <button onclick="getArea()">Click Here</button>
+  </body>
+</html>
